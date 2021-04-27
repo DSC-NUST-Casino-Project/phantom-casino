@@ -10,7 +10,7 @@ if age > 18:
 
         else:
             print('You do not have enough money. Come back when you are rich')
-   else:
+    else:
         print("You have exceeded the legal age to enter Phantom Casino. We kindly urge you to seek more conservative means of redistributing the proceeds of your pension fund.")
 else:
     print("You are too young to enter Phantom Casino. We will gladly accept your hard-earned money once you are of age.")
