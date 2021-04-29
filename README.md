@@ -3,7 +3,7 @@
 Conditions:
 
 1. The person should be 18+ to enter
-2. The person should less than 65 years old to enter
+2. The person should be less than 65 years old to enter
 3. They should have a minimum of 5000 cash to participate
 
 Once they have entered they can now choose which game they want, Roulette, Poker, etc.
