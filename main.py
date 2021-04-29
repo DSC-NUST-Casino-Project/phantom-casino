@@ -1,4 +1,8 @@
-print('✯ PHANTOM CASINO ✯')
+#pyfiglet module for ASCII Art
+from art import *
+
+tprint('PHANTOM CASINO', font='random')
+print('\n✯ PHANTOM CASINO ✯')
 
 age =int(input('Hi, how old are you?:\n'))
 
@@ -14,42 +18,49 @@ if age > 18:
                 choice = int(input('1. Roulette 3000\n2. Poker 3000\n3. Blackjack 2500\n4. Craps 1500\n5. Baccarat 2000\n6. Pai Gow 1000\n7. Let Em Ride 1500 \n \n Game : '))
                 if choice == 1:
                     roul = cash - 3000
-                    print ('✯ You have Selected ✯')
+                    tprint('Roulette', font='random')
+                    print ('\n✯ You have Selected ✯')
                     print ('✯ ✯ ✯ Roulette ✯ ✯ ✯')
                     print ('✯ Enjoy the game ✯\n \n')
                     print(f'Balance : ${roul}')
                 elif choice == 2:
                     poker = cash - 3000
+                    tprint('Poker', font='random')
                     print ('✯ You have Selected ✯')
-                    print ('✯ ✯ ✯ Poker ✯ ✯ ✯')
+                    print ('✯ ✯ ✯ POKER ✯ ✯ ✯')
                     print ('✯ Enjoy the game ✯\n \n')
                     print(f'Balance : ${poker}')
                 elif choice == 3:
                     jack = cash - 2500
+                    tprint('BLACKJACK', font='random')
                     print ('✯ You have Selected ✯')
                     print ('✯ ✯ ✯ Blackjack ✯ ✯ ✯')
                     print ('✯ Enjoy the game ✯\n \n')
                     print(f'Balance : ${jack}')
                 elif choice == 4:
                     craps = cash - 1500
+                    tprint('CRAPS', font='random')
                     print ('✯ You have Selected ✯')
                     print ('✯ ✯ ✯ Craps ✯ ✯ ✯')
                     print ('✯ Enjoy the game ✯\n \n')
                     print(f'Balance : ${craps}')
                 elif choice == 5:
                     bacc = cash - 2000
-                    print ('✯ You have Selected ✯')
+                    tprint('BACCARAT', font='random')
+                    print ('\n✯ You have Selected ✯')
                     print ('✯ ✯ ✯ Baccarat ✯ ✯ ✯')
                     print ('✯ Enjoy the game ✯\n \n')
                     print(f'Balance : ${bacc}')
                 elif choice == 6:
                     pgow = cash - 1000
-                    print ('✯ You have Selected ✯')
+                    tprint('PAI GOW', font='random')
+                    print ('\n✯ You have Selected ✯')
                     print ('✯ ✯ ✯ Pai Gow ✯ ✯ ✯')
                     print ('✯ Enjoy the game ✯\n \n')
                     print(f'Balance : ${pgow}')
                 elif choice == 7:
                     lride = cash - 1500
+                    tprint('LET EM RIDE', font='random')
                     print ('✯ You have Selected ✯')
                     print ('✯ ✯ ✯ Let Em Ride ✯ ✯ ✯')
                     print ('✯ Enjoy the game ✯\n \n')
